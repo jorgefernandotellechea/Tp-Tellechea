@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI' !important;
+    line-height: 2.0;
+    color: black;
+}
+
+@media (min-width:480px) {
+    body {
+      padding: 0 100px;
+    }
+  }
+
+  .logo1 {
+    height: 160px;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.header {
+    background-color: #104274;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  .container {
+    display: flex;
+    background-color: black;
+    max-width: 1200px;
+    padding: 0 15px;
+  }  
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+input[type="number"] {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+li {
+    width: 200px;
+    height: 250px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-table;
+    text-align: center;
+    vertical-align: top;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+li:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+li img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.input-group-text {
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+    text-wrap: pretty;
+}
+
+#precio {
+    font-size: 18px;
+    color: #007bff;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+a.nav-link {
+    color: white;
+  }
+  
+  a.nav-link:hover {
+    color: rgb(154, 223, 253);
+  }
+  
+  a.nav-link:focus {
+    color: rgb(154, 223, 253);
+  }
+
+  .page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+footer {
+  background-color: #207791;
+  border-top: 1px solid #104274;
+  border-left: 1px solid #104274;
+  border-right: 1px solid #104274;
+  border-bottom: 1px solid #104274;
+  padding: 10px 0;
+  color: white;
+}

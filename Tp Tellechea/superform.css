@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI' !important;
+    line-height: 2.0;
+    color: black;
+    width: 85%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+
+.logo1 {
+    height: 160px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #104274;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+
+#contact-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact-form button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #207791;
+    border-top: 1px solid #104274;
+    border-left: 1px solid #104274;
+    border-right: 1px solid #104274;
+    border-bottom: 1px solid #104274;
+    padding: 10px 0;
+    color: white;
+  }
+  
+  a.nav-link {
+    color: white;
+  }
+  
+  a.nav-link:hover {
+    color: rgb(154, 223, 253);
+  }
+  
+  a.nav-link:focus {
+    color: rgb(154, 223, 253);
+  }
+
+  footer {
+    background-color: #207791;
+    border-top: 1px solid #104274;
+    border-left: 1px solid #104274;
+    border-right: 1px solid #104274;
+    border-bottom: 1px solid #104274;
+    padding: 10px 0;
+    color: white;
+  }

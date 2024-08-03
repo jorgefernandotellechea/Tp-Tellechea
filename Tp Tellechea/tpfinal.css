@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI' !important;
+  line-height: 2.0;
+  color: black;
+}
+
+@media (min-width:480px) {
+  body {
+    padding: 0 100px;
+  }
+}
+
+.container {
+  display: flex;
+  background-color: black;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.logo1 {
+  height: 160px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.page-link {
+  padding: 10px 15px;
+  text-decoration: dotted;
+  color: #104274;
+}
+
+.page-link:hover {
+  color: #104274;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+.header {
+  background-color: #104274;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+div.imagen {
+  width: 50%;
+}
+
+img.imagen {
+  width: 100%;
+  height: 100%;
+}
+
+.parrafo {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.contenedor-texto {
+  width: 50%;
+  padding-left: 5%;
+  align-items: center;
+  display: flex;
+
+}
+
+.contenedor-texto h1 {
+  color: white;
+}
+
+main {
+  padding: 20px;
+}
+
+.historia, .nosotros {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #104274;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  text-justify: distribute;
+}
+
+footer {
+  background-color: #207791;
+  border-top: 1px solid #104274;
+  border-left: 1px solid #104274;
+  border-right: 1px solid #104274;
+  border-bottom: 1px solid #104274;
+  padding: 10px 0;
+  color: white;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a.nav-link:hover {
+  color: rgb(154, 223, 253);
+}
+
+a.nav-link:focus {
+  color: rgb(154, 223, 253);
+}
